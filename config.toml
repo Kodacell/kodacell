@@ -22,7 +22,7 @@ theme = "minimal"
 
 # [[menu.main]]
 #     url = "/post/"
-#     name = "Posts"
+#     name = "Blog"
 #     weight = 2
 
 # [[menu.main]]
@@ -30,10 +30,10 @@ theme = "minimal"
 #     name = "Projects"
 #     weight = 3
 
-# [[menu.main]]
-#     url = "/lab/"
-#     name = "The Lab"
-#     weight = 4
+[[menu.main]]
+    url = "/lab/"
+    name = "The Lab"
+    weight = 4
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
@@ -47,19 +47,24 @@ theme = "minimal"
 [[menu.icon]]
     url = "https://github.com/shaunmnemonic/"
     name = "github"
-    weight = 2
+    weight = 3
 
 [[menu.icon]]
     url = "https://twitter.com/shaunmnemonic/"
     name = "twitter"
-    weight = 3
+    weight = 4
 
 [[menu.icon]]
     url = "https://www.linkedin.com/in/shauninvr/"
     name = "linkedin"
-    weight = 4
+    weight = 6
 
 [[menu.icon]]
-    url = "https://www.medium.com/@shaunix/"
-    name = "medium"
+    url = "https://www.twitch.tv/shaunix0/"
+    name = "twitch"
     weight = 1
+
+[[menu.icon]]
+    url = "https://www.youtube.com/channel/UC_22XvsUjhYHHinHe_RLjqw"
+    name = "youtube"
+    weight = 2

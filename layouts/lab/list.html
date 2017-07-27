@@ -1,0 +1,12 @@
+{{ partial "header" . }}
+
+<main class="lab-list continer">
+
+    <h2 class="list-title">{{ .Title }}</h2>
+
+    <div class="row">
+        {{ range .Pages }} {{ partial "list-item" . }} {{ end }}
+    </div>
+</main>
+
+{{ partial "footer" . }}
