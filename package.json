@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "hugo",
     "deploy": "surge -p public --domain kodacell.com"
   },
   "keywords": [],
