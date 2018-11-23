@@ -2,8 +2,9 @@
 title: "BetaLabs at Ravensbourne"
 date: 2017-07-24
 tags: ["VR", "AR", "Workshop"]
-draft: true
+draft: false
 thumbnail: "http://i.imgur.com/UW6njd3.jpg"
+intro: "Something Something about the intro"
 ---
 
 

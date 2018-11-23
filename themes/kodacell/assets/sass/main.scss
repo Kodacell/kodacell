@@ -1,0 +1,63 @@
+@import "breakpoints";
+@import "mixins";
+@import "colors";
+
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  color: $lightBlue;
+  background: #16212F;
+  background-size: 15px 15px;
+  background-image: radial-gradient(#466A97 3%, transparent 4%), radial-gradient(#466A97 3%, transparent 4%);
+  font-family: 'Nova Mono', monospace;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size:13px;
+  margin:0;
+}
+
+a{
+  color:$lightBlue;
+  text-decoration: none;
+
+  &:visited{
+    color: $lightBlue;
+  }
+}
+
+.main-header{
+  border-top: 1px solid $darkBlue;
+  border-bottom: 1px solid $darkBlue;
+  display: flex;
+  align-items: center;
+
+  h1{
+    font-size: medium;
+    flex-grow:1;
+    padding:5px 15px;
+    margin:0;
+  }
+}
+
+.main-navigation{
+  display: flex;
+  list-style: none;
+  margin:0;
+  padding:0;
+
+  li{
+    flex-grow:1;
+    padding:5px;
+  }
+
+  a{
+    color:$lightBlue;
+  }
+}
+
+
+@import "lists";

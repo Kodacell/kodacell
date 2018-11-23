@@ -1,0 +1,13 @@
+<header class="main-header">
+    <h1>
+      <a href="/">Kodacell</a>
+  </h1>
+    
+    {{ if .Site.Menus.main }}
+        <ul class="main-navigation">
+            {{ range sort .Site.Menus.main }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a>  </li>
+            {{ end }}
+        </ul>
+    {{ end }}
+</header>

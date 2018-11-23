@@ -2,7 +2,7 @@
 title: "JS13k"
 date: 2017-08-14
 tags: ["VR", "AR", "Hackathon", "Competition"]
-draft: true
+draft: false
 thumbnail: "http://i.imgur.com/UW6njd3.jpg"
 ---
 
