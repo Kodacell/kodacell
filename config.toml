@@ -1,4 +1,4 @@
-baseURL = "https://kodacell.com/"
+baseURL = "www.kodacell.com/"
 languageCode = "en-us"
 title = "Kodacell - Immersive Web"
 canonifyurls = true
@@ -9,8 +9,6 @@ canonifyurls = true
     githubUsername = "shaunmnemonic"
     accent = "#1fcbff"
     showBorder = false
-    backgroundColor = "#162132"
-    font = "Open Sans" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
