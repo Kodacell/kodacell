@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+    <head>
+
+        <title>Kodacell Live - {{ .Title }}</title>
+
+        {{ partial "css" . }}{{ .Hugo.Generator }}
+
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    </head>
+
+    <body>
+            {{partial "main-menu" .}}

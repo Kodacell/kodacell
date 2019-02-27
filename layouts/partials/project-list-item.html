@@ -1,0 +1,10 @@
+<li class="project-list-item">
+    <a class="list-item-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{ range .Params.tags }} 
+        <span class="tag"> {{ . }} </span>
+    {{ end }}
+    <img src="../images/projects/{{ .Params.main_image }}" alt="">
+    <p>{{ .Params.description }}</p>
+    <a class="see-more" href="{{ .RelPermalink }}">{{ .Params.read_more }} </a>
+</li>
+

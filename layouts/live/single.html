@@ -1,24 +1,13 @@
 {{ partial "live-header" . }}
-<main>
 
+<div class="container">
     <div id="twitch-embed"></div>
-
-    <div class="text-justify">{{ .Content }}</div>
-
-    <iframe frameborder="0"
-        scrolling="no"
-        id="chat_embed"
-        src="https://www.twitch.tv/embed/hebo/chat"
-        height="500"
-        width="350">
-</iframe>
-
-</main>
+</div>
 
 
 <script type="text/javascript">
   new Twitch.Embed("twitch-embed", {
-    width: 854,
+    width: "100%",
     height: 480,
     channel: "shaunixx",
     layout: 'video'

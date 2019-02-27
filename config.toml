@@ -1,7 +1,7 @@
 baseURL = "https://kodacell.com/"
 languageCode = "en-us"
 title = "Kodacell - Immersive Web"
-theme = "kodacell"
+canonifyurls = true
 
 [params]
     author = "Shaun Davis"
@@ -17,22 +17,27 @@ theme = "kodacell"
 
  [[menu.main]]
      url = "/post/"
-     name = "Blog"
+     name = "/Blog"
      weight = 2
 
  [[menu.main]]
-    url = "/projects/"
-    name = "Projects"
+    url = "/work/"
+    name = "/work"
     weight = 3
 
+# [[menu.main]]
+#     url = "/lab/"
+#     name = "The Lab"
+#     weight = 4
+
 [[menu.main]]
-    url = "/lab/"
-    name = "The Lab"
+    url = "/quotes/"
+    name = "/Quotes"
     weight = 4
 
 [[menu.main]]
     url = "/live/"
-    name = "Live"
+    name = "/Live"
     weight = 5
 
 # Social icons to be shown on the right-hand side of the navigation bar
@@ -41,30 +46,30 @@ theme = "kodacell"
 
 [[menu.icon]]
     url = "mailto:shaun@kodacell.com"
-    name = "envelope-o"
+    name = "icon-mail-alt"
     weight = 5
 
 [[menu.icon]]
     url = "https://github.com/shaunmnemonic/"
-    name = "github"
+    name = "icon-github-circled"
     weight = 3
 
 [[menu.icon]]
     url = "https://twitter.com/shaunmnemonic/"
-    name = "twitter"
+    name = "icon-twitter"
     weight = 4
 
 [[menu.icon]]
-    url = "https://www.linkedin.com/in/shauninvr/"
-    name = "linkedin"
+    url = "https://www.linkedin.com/in/shaunix/"
+    name = "icon-linkedin"
     weight = 6
 
 [[menu.icon]]
-    url = "https://www.twitch.tv/shaunix0/"
-    name = "twitch"
+    url = "https://www.twitch.tv/shaunixx"
+    name = "icon-twitch"
     weight = 1
 
 [[menu.icon]]
     url = "https://www.youtube.com/channel/UC_22XvsUjhYHHinHe_RLjqw"
-    name = "youtube"
+    name = "icon-youtube-play"
     weight = 2

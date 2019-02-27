@@ -1,0 +1,26 @@
+{{ partial "header" . }}
+
+<div class="container quotes-container">
+
+    <h1>Quotes</h1>
+
+    <div class="some-quotes">
+
+    {{ range .Site.Data.quotes.sources }}
+
+    <div class="quote-block">
+  
+        <time datetime="">{{ dateFormat "Monday, Jan 2, 2006" .date }}</time>
+  
+        <blockquote>{{ .quote }}</blockquote>
+  
+        <cite> - {{ .citation }}</cite>
+
+    </div>
+  
+  {{ end }}
+</div>
+
+</div>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,18 @@
+
+<!-- I dont do analytics or tracking -->
+
+</body>
+
+<footer>
+
+  <ul class="footer-links-list">
+
+    {{ range .Site.Menus.icon}}
+    <li><a href="{{ .URL }}"><i class="{{ .Name }}"></i></a></li>
+    {{ end }}
+
+  </ul>
+
+  <span class="write-this">Kodacell</span> Ltd. Made with Hugo.
+
+</footer>

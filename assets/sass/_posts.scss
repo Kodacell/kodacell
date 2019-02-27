@@ -1,0 +1,40 @@
+.img-responsive{
+  max-width: 100%;
+}
+
+.list-item-title{
+  display: block;
+}
+
+.timedate-list{
+  font-family: monospace;
+  display: block;
+  font-size:0.8rem;
+}
+
+.post{
+  
+  @include lg{
+    width:70%;
+    margin: 0 20px;
+  }
+
+}
+
+
+.post-body{
+  h1{
+    font-size:3rem;
+  }
+}
+
+.tag{
+  font-size:0.8rem;
+  background:white;
+  padding: 5px;
+}
+
+.see-more{
+  font-family: monospace;
+  font-size:1rem;
+}

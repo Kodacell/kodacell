@@ -1,0 +1,111 @@
+.intro{
+  background-color: rgba(23, 23, 23, 0.9);
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  color: #FFF;
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat, sans-serif;
+  flex-direction: column;
+  text-align: center;
+}
+
+.splash-title{
+margin-bottom:0;
+margin-top:0;
+}
+
+.subtitle{
+font-weight:100;
+}
+
+button{
+border: 2px solid #fff;
+border-radius: 0;
+background: transparent;
+padding: .3em .6em;
+font-size: 2rem;
+font-size: 3.22vmin;
+color: #fff;
+pointer-events: auto;
+}
+
+button:hover{
+cursor:pointer;
+}
+
+.enter-btn{
+display: block;
+border-color: #fff;
+margin: 0 auto 1.05em;
+text-align: left;
+color: #fff;
+width: 580px;
+padding: 0;
+background: no-repeat 100% 0;
+background-size: contain;
+position: relative;
+}
+
+.enter-btn h3{
+padding: .23em .5em;
+display: inline-block;
+width: 75%;
+border-right: 2px solid #fff;
+-webkit-transition: border .2s;
+transition: border .2s;
+}
+
+.enter-btn h3 svg{
+position: absolute;
+height: 65px;
+width: 70px;
+position: absolute;
+right:12px;
+}
+
+.heading-3{
+font-family: HelveticaNeueLTStd-Th,sans-serif;
+font-style: normal;
+padding: 0;
+margin: 0;
+line-height: 1.3em;
+letter-spacing: -.03em;
+font-weight: 400;
+font-size: 3rem;
+}
+
+@media screen and (max-width: 700px) {
+
+.enter-btn{
+width:300px;
+margin:1rem auto;
+}
+
+
+.heading-3{
+font-size:2rem;
+}
+
+.enter-btn h3 svg{
+display: none
+}
+
+.hidden-small{
+display: none
+}
+
+.enter-btn h3{
+border:none;
+text-align: center;
+padding: 0.5rem 0;
+width:100%;
+}
+
+}

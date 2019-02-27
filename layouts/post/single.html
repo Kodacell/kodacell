@@ -1,0 +1,14 @@
+{{ partial "header" . }}
+
+<div class="container post">
+
+  <div class="post-body">
+      <time datetime="">{{.Date}}</time>
+      <h1>{{ .Title }}</h1>
+    
+      {{.Content}}
+  </div>
+
+</div>
+
+{{ partial "footer" .}}
