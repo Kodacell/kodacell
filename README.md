@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/883de506-0789-46b5-b707-2fea2627ca43/deploy-status)](https://app.netlify.com/sites/tender-goodall-a07b07/deploys)
