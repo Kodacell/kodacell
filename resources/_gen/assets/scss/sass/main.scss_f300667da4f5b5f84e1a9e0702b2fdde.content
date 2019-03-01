@@ -1,0 +1,242 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Shaun';
+  src: url("../font/Shaun.eot");
+  src: url("../font/Shaun.eot?#iefix") format("embedded-opentype"), url("../font/Shaun.woff2") format("woff2"), url("../assets/font/Shaun.woff") format("woff"), url("../font/Shaun.svg#Shaun") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'kodacell-icons';
+  src: url("../font/kodacell-icons.eot?73275799");
+  src: url("../font/kodacell-icons.eot?73275799#iefix") format("embedded-opentype"), url("../font/kodacell-icons.woff2?73275799") format("woff2"), url("../font/kodacell-icons.woff?73275799") format("woff"), url("../font/kodacell-icons.ttf?73275799") format("truetype"), url("../font/kodacell-icons.svg?73275799#kodacell-icons") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'kodacell-icons';
+    src: url('../font/kodacell-icons.svg?73275799#kodacell-icons') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "kodacell-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+
+.icon-twitter:before {
+  content: '\f099'; }
+
+/* '' */
+.icon-github-circled:before {
+  content: '\f09b'; }
+
+/* '' */
+.icon-mail-alt:before {
+  content: '\f0e0'; }
+
+/* '' */
+.icon-linkedin:before {
+  content: '\f0e1'; }
+
+/* '' */
+.icon-youtube-play:before {
+  content: '\f16a'; }
+
+/* '' */
+.icon-twitch:before {
+  content: '\f1e8'; }
+
+/* '' */
+* {
+  box-sizing: border-box; }
+
+body {
+  color: black;
+  background: white;
+  background-size: 15px 15px;
+  background-image: radial-gradient(#466A97 3%, transparent 4%), radial-gradient(#466A97 3%, transparent 4%);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 13px;
+  margin: 0;
+  font-family: monospace; }
+
+h1, h2, h3, h4 {
+  font-family: 'Shaun'; }
+
+h1 {
+  text-transform: uppercase; }
+
+footer {
+  border-top: 1px solid #4C5B6D;
+  padding: 10px;
+  text-align: right; }
+  footer span {
+    font-size: 1.4rem; }
+
+.write-this {
+  font-family: "Shaun"; }
+
+p {
+  font-family: monospace;
+  font-size: 1rem; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+.main-header {
+  border-top: 1px solid #4C5B6D;
+  border-bottom: 1px solid #4C5B6D;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px; }
+  .main-header h1 {
+    flex-grow: 1;
+    padding: 5px 15px;
+    margin: 0;
+    font-size: 2rem;
+    text-transform: uppercase; }
+    .main-header h1 a {
+      color: black; }
+
+.main-navigation {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Shaun';
+  text-transform: uppercase; }
+  .main-navigation li {
+    flex-grow: 1;
+    padding: 5px; }
+  .main-navigation a {
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5rem; }
+
+.container {
+  width: 90%;
+  margin: auto;
+  min-height: calc(100vh - 190px); }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 1200px; } }
+
+footer {
+  margin-top: 30px;
+  overflow: hidden; }
+
+.footer-links-list {
+  float: left; }
+
+.footer-links-list li {
+  display: inline-block; }
+
+.list-title {
+  font-size: 3rem; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  font-weight: bolder;
+  list-style: none; }
+  ul a {
+    font-family: 'Shaun';
+    font-size: 2rem;
+    text-decoration: underline; }
+
+.project-list-item img {
+  max-width: 100%; }
+
+@media (min-width: 992px) {
+  .grid-list {
+    display: grid;
+    grid-template-columns: calc(100%/2) calc(100%/2);
+    grid-gap: 25px; } }
+
+@media (min-width: 1200px) {
+  .grid-list {
+    grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3); } }
+
+.quote-block {
+  padding: 15px;
+  margin-top: 30px; }
+  .quote-block time, .quote-block cite {
+    display: block;
+    text-align: right;
+    font-size: 0.7rem; }
+  .quote-block cite {
+    margin-right: 40px; }
+  .quote-block blockquote {
+    font-size: 1rem; }
+
+.quotes-container {
+  overflow: hidden; }
+
+.some-quotes {
+  display: flex; }
+
+.commentary {
+  margin: 0;
+  margin-top: 15px;
+  font-size: 0.8rem;
+  font-style: italic;
+  padding-left: 30px; }
+
+.img-responsive {
+  max-width: 100%; }
+
+.list-item-title {
+  display: block; }
+
+.timedate-list {
+  font-family: monospace;
+  display: block;
+  font-size: 0.8rem; }
+
+@media (min-width: 992px) {
+  .post {
+    width: 70%;
+    margin: 0 20px; } }
+
+.post-body h1 {
+  font-size: 3rem; }
+
+.tag {
+  font-size: 0.8rem;
+  background: white;
+  padding: 5px; }
+
+.see-more {
+  font-family: monospace;
+  font-size: 1rem; }
