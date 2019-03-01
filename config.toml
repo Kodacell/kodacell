@@ -1,4 +1,4 @@
-baseURL = "www.kodacell.com/"
+# baseURL = "www.kodacell.com/"
 languageCode = "en-us"
 title = "Kodacell - Immersive Web"
 canonifyurls = true
@@ -6,7 +6,7 @@ canonifyurls = true
 [params]
     author = "Shaun Davis"
     description = "Immersive Web"
-    githubUsername = "shaunmnemonic"
+    githubUsername = "shaun1x"
     accent = "#1fcbff"
     showBorder = false
     highlight = true
