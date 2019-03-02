@@ -118,7 +118,11 @@ a {
   border-bottom: 1px solid #4C5B6D;
   display: flex;
   align-items: center;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  flex-direction: column; }
+  @media (min-width: 768px) {
+    .main-header {
+      flex-direction: row; } }
   .main-header h1 {
     flex-grow: 1;
     padding: 5px 15px;
@@ -134,7 +138,13 @@ a {
   margin: 0;
   padding: 0;
   font-family: 'Shaun';
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  width: 100%;
+  align-content: space-around;
+  text-align: center; }
+  @media (min-width: 768px) {
+    .main-navigation {
+      width: auto; } }
   .main-navigation li {
     flex-grow: 1;
     padding: 5px; }
@@ -156,10 +166,22 @@ footer {
   overflow: hidden; }
 
 .footer-links-list {
-  float: left; }
+  display: flex;
+  align-content: space-around;
+  margin-bottom: 25px; }
+  .footer-links-list li {
+    flex-grow: 1;
+    text-align: center; }
+  .footer-links-list a {
+    font-size: 1.3rem; }
 
-.footer-links-list li {
-  display: inline-block; }
+.mobile-menu {
+  background: none;
+  border: none; }
+  .mobile-menu img {
+    height: 25px; }
+  .mobile-menu:hover {
+    cursor: pointer; }
 
 .list-title {
   font-size: 3rem; }
